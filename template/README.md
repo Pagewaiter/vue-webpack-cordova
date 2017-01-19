@@ -12,10 +12,10 @@ npm install
 npm run dev
 
 # install platfoms
-cordova platform add ios
+cordova platform add ios or android
 
 # build for production with minification
-cordova build ios
+npm run build
 {{#unit}}
 
 # run unit tests

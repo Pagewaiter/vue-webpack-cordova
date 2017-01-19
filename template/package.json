@@ -13,7 +13,8 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
-    "vue": "^2.1.0"
+    "vue": "^2.1.0",
+    "vue-cordova": "^0.1.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

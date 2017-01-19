@@ -11,8 +11,11 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# install platfoms
+cordova platform add ios
+
 # build for production with minification
-npm run build
+cordova build ios
 {{#unit}}
 
 # run unit tests

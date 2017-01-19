@@ -15,7 +15,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init pagewaiter/webpack-cordova my-project
+$ vue init pagewaiter/vue-webpack-cordova my-project
 $ cd my-project
 $ npm install
 $ npm run dev

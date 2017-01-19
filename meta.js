@@ -12,7 +12,7 @@ module.exports = {
     "name": {
       "type": "string",
       "required": true,
-      "message": "Project name"
+      "message": "Project name (no special characters or spaces)"
     },
     "description": {
       "type": "string",
@@ -22,7 +22,8 @@ module.exports = {
     },
     "author": {
       "type": "string",
-      "message": "Author"
+      "message": "Author",
+      "default": "Name name@email.com"
     },
     "build": {
       "type": "list",
